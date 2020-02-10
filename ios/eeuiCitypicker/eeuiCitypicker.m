@@ -24,7 +24,7 @@ WEEX_PLUGIN_INIT(eeuiCitypicker)
 
 - (void) setJSCallModule:(JSCallCommon *)callCommon webView:(WKWebView*)webView
 {
-    [callCommon setJSCallAssign:webView name:@"city" bridge:[[eeuiCitypickerBridge alloc] init]];
+    [callCommon setJSCallAssign:webView name:@"eeuiCitypicker" bridge:[[eeuiCitypickerBridge alloc] init]];
 }
 
 @end

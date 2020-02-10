@@ -24,7 +24,7 @@
 
 @implementation eeuiCityPickerModule
 
-WX_PlUGIN_EXPORT_MODULE(citypicker, eeuiCityPickerModule)
+WX_PlUGIN_EXPORT_MODULE(eeuiCitypicker, eeuiCityPickerModule)
 WX_EXPORT_METHOD(@selector(select:callback:))
 
 - (void)select:(NSDictionary*)params callback:(WXModuleKeepAliveCallback)callback

@@ -32,11 +32,11 @@ public class eeui_citypicker {
      */
     public void init(Context context) {
         try {
-            WXSDKEngine.registerModule("citypicker", WeexModule.class);
+            WXSDKEngine.registerModule("eeuiCitypicker", WeexModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }
-        WebCallBean.addClassData("citypicker", WebModule.class);
+        WebCallBean.addClassData("eeuiCitypicker", WebModule.class);
     }
 
     /****************************************************************************************/
